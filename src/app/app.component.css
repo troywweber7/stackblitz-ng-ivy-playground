@@ -5,5 +5,12 @@ div {
   justify-content: center;
 }
 #flex {
-  
+  position: absolute;
+  float: left;
+}
+#flex-fix {
+  position: absolute;
+  float:left;
+  width: calc(count(repeat(auto-fit, minmax(100px, max-content))) * 10px);
+  height:100%;
 }
