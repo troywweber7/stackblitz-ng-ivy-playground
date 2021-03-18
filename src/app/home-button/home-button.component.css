@@ -19,7 +19,7 @@ div:hover {
   background-color: #eeeeee;
 }
 
-:host div:hover >>> img,
-:host div:hover >>> label {
+:host >>> div:hover img,
+:host >>> div:hover label {
   zoom: 1.1;
 }

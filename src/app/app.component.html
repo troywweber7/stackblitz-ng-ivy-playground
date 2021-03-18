@@ -1,20 +1,22 @@
 <!-- https://stackoverflow.com/questions/49514794/centering-grid-items-in-an-auto-fill-container -->
-<div id="grid" gdColumns="repeat(auto-fit, minmax(100px, max-content))" gdGap="8px">
-  <app-home-button *ngFor="let b of buttons">
+<div id="grid" gdColumns="repeat(auto-fill, minmax(100px, max-content))" gdGap="8px">
+  <app-home-button *ngFor="let b of visibleButtons; let i = index" (contextmenu)="removeButton(i)">
     <img [src]="b.image">
     <label>{{b.text}}</label>
   </app-home-button>
+  <app-home-button (click)="newButton()">
+    <img [src]="newButtonImage">
+    <label>New</label>
+  </app-home-button>
 </div>
-
-<hr>
 
 <div id="flex" fxLayout="row wrap">
-  <app-home-button *ngFor="let b of buttons">
+  <app-home-button *ngFor="let b of visibleButtons; let i = index" (contextmenu)="removeButton(i)">
     <img [src]="b.image">
     <label>{{b.text}}</label>
   </app-home-button>
+  <app-home-button (click)="newButton()">
+    <img [src]="newButtonImage">
+    <label>New</label>
+  </app-home-button>
 </div>
-
-<hr>
-
-<img [style.width.%]="100" src="https://img.icons8.com/color/452/nintendo-gamecube-controller.png">
