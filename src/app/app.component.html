@@ -1,3 +1,4 @@
-<p>
-  Edit for magic!
-</p>
+<app-home-button *ngFor="let b of buttons">
+  <img [src]="b.image">
+  <label>{{b.text}}</label>
+</app-home-button>

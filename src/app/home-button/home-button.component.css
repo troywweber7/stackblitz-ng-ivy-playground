@@ -1,0 +1,24 @@
+::content >>> img {
+  padding: 4px;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+div {
+  height: 96px;
+  width: 96px;
+  border-radius: 8px;
+}
+
+::content >>> label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+div:hover {
+  background-color: #eeeeee;
+}
+
+div:hover > ::content >>> img,
+div:hover > ::content >>> label {
+  zoom: 1.1;
+}
