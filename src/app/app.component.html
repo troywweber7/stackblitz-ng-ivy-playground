@@ -1,5 +1,5 @@
 <!-- https://stackoverflow.com/questions/49514794/centering-grid-items-in-an-auto-fill-container -->
-<div gdColumns="repeat(auto-fit, minmax(100px, max-content))">
+<div id="grid" gdColumns="repeat(auto-fit, minmax(100px, max-content))">
   <app-home-button *ngFor="let b of buttons">
     <img [src]="b.image">
     <label>{{b.text}}</label>
@@ -8,7 +8,7 @@
 
 <hr>
 
-<div gdColumns="repeat(auto-fit, minmax(100px, max-content))">
+<div id="flex" fxLayout="row wrap">
   <app-home-button *ngFor="let b of buttons">
     <img [src]="b.image">
     <label>{{b.text}}</label>

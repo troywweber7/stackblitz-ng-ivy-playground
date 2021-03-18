@@ -1,3 +1,9 @@
 div {
+  border: thin solid orange;
+}
+#grid {
   justify-content: center;
+}
+#flex {
+  
 }
