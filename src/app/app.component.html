@@ -1,4 +1,7 @@
-<app-home-button *ngFor="let b of buttons">
-  <img [src]="b.image">
-  <label>{{b.text}}</label>
-</app-home-button>
+<!-- https://stackoverflow.com/questions/49514794/centering-grid-items-in-an-auto-fill-container -->
+<div gdColumns="repeat(auto-fit, minmax(96px, max-content))">
+  <app-home-button *ngFor="let b of buttons">
+    <img [src]="b.image">
+    <label>{{b.text}}</label>
+  </app-home-button>
+</div>
