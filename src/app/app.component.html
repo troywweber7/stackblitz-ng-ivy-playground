@@ -5,3 +5,12 @@
     <label>{{b.text}}</label>
   </app-home-button>
 </div>
+
+<hr>
+
+<div gdColumns="repeat(auto-fit, minmax(100px, max-content))">
+  <app-home-button *ngFor="let b of buttons">
+    <img [src]="b.image">
+    <label>{{b.text}}</label>
+  </app-home-button>
+</div>
