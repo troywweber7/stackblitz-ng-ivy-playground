@@ -13,7 +13,9 @@ export class AppComponent {
       image:
         "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/44dc8870-2a31-4ffe-a3b8-e3132a11d974/d9td5j6-d68ffb76-ec23-453f-a65a-5329540639e0.png",
       text: "NES"
-    },
+    }
+  ];
+  buttons = [
     {
       image:
         "https://cdn2.iconfinder.com/data/icons/gaming-8/512/Nintendo_controller-512.png",
@@ -24,8 +26,6 @@ export class AppComponent {
         "https://cdn1.iconfinder.com/data/icons/gamepads-2/100/gamepads_n64-512.png",
       text: "N64"
     },
-  ];
-  buttons = [
     {
       image:
         "https://img.icons8.com/color/452/nintendo-gamecube-controller.png",
@@ -76,8 +76,7 @@ export class AppComponent {
   ];
 
   newButton() {
-    if (this.buttons.length)
-      this.visibleButtons.push(this.buttons.pop())
+    if (this.buttons.length) this.visibleButtons.push(this.buttons.pop());
   }
 
   removeButton(index: number) {
