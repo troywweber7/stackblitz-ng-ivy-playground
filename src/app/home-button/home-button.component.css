@@ -1,12 +1,12 @@
 ::content >>> img {
   padding: 4px;
-  max-width: 40px;
-  max-height: 40px;
+  width: 56px;
+  height: 56px;
 }
 
 div {
-  height: 96px;
-  width: 96px;
+  height: 100px;
+  width: 100px;
   border-radius: 8px;
 }
 

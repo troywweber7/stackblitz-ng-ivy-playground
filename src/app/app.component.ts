@@ -9,33 +9,61 @@ export class AppComponent {
   buttons = [
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/9/95/Playstation_icon.png",
-      text: "PlayStation",
+        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/44dc8870-2a31-4ffe-a3b8-e3132a11d974/d9td5j6-d68ffb76-ec23-453f-a65a-5329540639e0.png",
+      text: "NES"
     },
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/5/55/Black_Nintendo_DS_icon.png",
-      text: "Black NDS",
+        "https://cdn2.iconfinder.com/data/icons/gaming-8/512/Nintendo_controller-512.png",
+      text: "SNES"
     },
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/7/79/White_Nintendo_DS_icon.png",
-      text: "White NDS",
+        "https://cdn1.iconfinder.com/data/icons/gamepads-2/100/gamepads_n64-512.png",
+      text: "N64"
     },
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/5/57/Black_Sega_Mega_Drive_icon.png",
-      text: "Sega MD",
+        "https://img.icons8.com/color/452/nintendo-gamecube-controller.png",
+      text: "GameCube"
+    },
+    {
+      image: "https://static.thenounproject.com/png/1593371-200.png",
+      text: "Wii"
     },
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/d/d8/Black_Nintendo_64_icon.png",
-      text: "N64",
+        "https://images.cellphonerepair.com/wp-content/uploads/2016/11/nintendo-wii-u-image-1.png",
+      text: "Wii U"
     },
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/3/34/Black_Playstation_3_icon.png",
-      text: "PS3",
+        "https://i.pinimg.com/originals/e9/40/cb/e940cbc391be495e6b75ddd1ef76c545.png",
+      text: "Switch"
+    },
+    {
+      image: "https://estadioretro.be/videojuegos/wp-content/uploads/2020/10/gameboy_icon.png",
+      text: "GameBoy"
+    } ,
+    {
+      image: "https://static.thenounproject.com/png/44993-200.png",
+      text: "GBC"
+    },
+    {
+      image: "https://www.freeiconspng.com/thumbs/gameboy-icon/gameboy-icon-5.png",
+      text: "GBA"
+    },
+    {
+      image: "https://static.thenounproject.com/png/222862-200.png",
+      text: "GBA SP"
+    },
+    {
+      image: "https://cdn2.iconfinder.com/data/icons/the-evolution-of-consoles-game/64/3Ds_console_game_evolution_copy-512.png",
+      text: "NDS"
+    },
+    {
+      image: "https://images-na.ssl-images-amazon.com/images/I/811Ap7oY41L._AC_SL1500_.jpg",
+      text: "3DS"
     }
   ];
 }
