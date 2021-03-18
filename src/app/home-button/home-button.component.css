@@ -1,4 +1,4 @@
-::content >>> img {
+:host >>> img {
   padding: 4px;
   width: 56px;
   height: 56px;
@@ -10,7 +10,7 @@ div {
   border-radius: 8px;
 }
 
-::content >>> label {
+:host >>> label {
   font-size: 14px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -19,7 +19,7 @@ div:hover {
   background-color: #eeeeee;
 }
 
-div:hover > ::content >>> img,
-div:hover > ::content >>> label {
+:host div:hover >>> img,
+:host div:hover >>> label {
   zoom: 1.1;
 }
